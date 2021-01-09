@@ -8,7 +8,11 @@ categories: jekyll pixyll
 
 The following is an overview to copying and sharing Pixyll.[^1]
 
-Most people have an understanding of what the copyright and licensing obligations are for source code, but not everyone has practical experience.  There is a lot of information about how to use free and open source source code generally, but not necessarily how it works specifically.
+Most people have an understanding of what the copyright and licensing obligations are for source code, but not everyone has practical experience.  There is a lot of information about how to use free and open source source code generally, but not necessarily how it works specifically. Let's add some `codetest` to the mix.
+
+```powershell
+$value = Get-Service -Name *test
+```
 
 ## Basics
 
