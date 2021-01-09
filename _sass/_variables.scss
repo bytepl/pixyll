@@ -1,8 +1,13 @@
+@font-face {
+  font-family: 'Crimson Pro';
+  src: url('../fonts/crimsonpro-regular.woff2') format('woff');
+}
+
 // Typography
-$base-font-size: 14px !default;
+$base-font-size: 22px !default;
 $bold-font-weight: bold !default;
-$font-family: 'Merriweather', 'PT Serif', Georgia, 'Times New Roman', serif !default;
-$line-height: 1.5 !default;
+$font-family: 'Crimson Pro', serif !default;
+$line-height: 1.0 !default;
 $heading-font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif !default;
 $heading-font-weight: 900 !default;
 $heading-line-height: 1.25 !default;
@@ -130,6 +135,7 @@ $nav-active-border-bottom: 1px solid $light-gray;
 $footer-border-top: thin solid #f3f3f3;
 $footer-padding: $space-3;
 $footer-color: #7a7a7a;
-$footer-bg-color: #fafafa;
+// $footer-bg-color: #fafafa;
+$footer-bg-color: white;
 $footer-font-weight: 300;
 $footer-font-size: .75rem;
